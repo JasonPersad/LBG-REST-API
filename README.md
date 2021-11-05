@@ -83,5 +83,62 @@ $ curl -s -X DELETE http://localhost:8080/product/delete/<id>
 ~~~
 
 n.b: For these commands anything surrounded by angled braces <> needs to be replaced by you
+
 ---
+
 By Jason Persad.
+
+---
+#Testing
+
+To run tests on this project you can use:
+~~~ bash
+npm test
+~~~
+
+##EXAMPLES
+
+### unit tests...
+
+~~~ javascript
+{
+    name: "lemon",
+    description: "a yellow citrus fruit",
+    price: 0.4
+
+}
+~~~
+
+### integration
+
+test the RESTful end-points
+
+test the DELETE endpoint...
+
+path: /product/delete/1
+
+we expect 
+
+status code: 204
+status text: No content
+
+### system testing
+example is system integration testing
+
+e.g. CREATE a lemon --> get a 201 response
+     READ all of the products and verify that output is as expected
+     ... get a 200 code, OK text and the lemon and details in the message body
+
+or black box testing... use front end and verify behaviour in UI
+
+### user acceptance testing
+
+GIVEN a user can access UI
+WHEN  when they enter valid prod ID in update area
+AND they enter a desc
+AND they enter a price
+AND they click PUT button
+THEN the updated product is visible on the page
+
+
+
