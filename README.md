@@ -89,14 +89,14 @@ n.b: For these commands anything surrounded by angled braces <> needs to be repl
 By Jason Persad.
 
 ---
-#Testing
+# Testing
 
 To run tests on this project you can use:
 ~~~ bash
 npm test
 ~~~
 
-##EXAMPLES
+## EXAMPLES
 
 ### unit tests...
 
@@ -104,7 +104,7 @@ npm test
 {
     name: "lemon",
     description: "a yellow citrus fruit",
-    price: 0.4
+    price: 0.35
 
 }
 ~~~
