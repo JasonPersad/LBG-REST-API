@@ -1,73 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # REST API starter
 
 This application satisfies the requirements of Part I, 1. of the LBG project specification.
@@ -80,7 +10,7 @@ To initialise the project you will need to install several dependencies, open up
 $ npm install
 ~~~
 
-## Running the application
+## Running the application yeah
 
 In order to run the application, from your git bash terminal run:
 
