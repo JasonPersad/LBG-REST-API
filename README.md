@@ -42,6 +42,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # REST API starter
 
 This application satisfies the requirements of Part I, 1. of the LBG project specification.
@@ -185,6 +211,6 @@ AND they click PUT button
 THEN the updated product is visible on the page
 
 #### asdasda sdasd asd asdasd
-### THIS IS BIZZLE 3 EX 2
+### THIS IS BIZZLE 44444444444444444444444 EX 2
 
 
