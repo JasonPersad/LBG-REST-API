@@ -19,7 +19,7 @@ spec:
         app: jason-node-app
     spec:
       containers:
-      - name: jason-node-app
+      - name: jason-node-app-container
         image: gcr.io/lbg-training/jason-node-app:13
         ports:
         - containerPort: 80
