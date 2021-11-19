@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jason-app
+  name: jason-node-app
   labels:
-    app: jason-app
+    app: jason-node-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: jason-app
+      app: jason-node-app
   strategy:
     rollingUpdate:
       maxSurge: 10%
@@ -16,10 +16,10 @@ spec:
   template:
     metadata:
       labels:
-        app: jason-app
+        app: jason-node-app
     spec:
       containers:
-      - name: jason-app
+      - name: jason-node-app
         image: gcr.io/lbg-training/jason-node-app:13
         ports:
         - containerPort: 80
